@@ -1,0 +1,160 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+/*Header Responsive*/
+@media (max-width: 1000px) {
+  .header-list{
+    display: none;
+  }
+}
+@media (max-width: 670px) {
+  .header-right1{
+    display: none;
+  }
+  .header-list{
+    display: none;
+  }
+  .logo{
+    width: 30px;
+    height: 30px;
+  }
+  span{
+    font-size: 25px;
+  }
+  .top-wrapper h1 {
+    font-size: 15px;
+    line-height: 36px;
+  }
+  .top-wrapper h2 {
+    font-size: 10px;
+  }
+  .top-wrapper p {
+    font-size: 10px;
+  }
+}
+
+/*Header*/
+body {
+  font-family: "Lucida Grande";
+}
+
+li {
+  list-style: none;
+  float: left;
+  padding:33px 20px;
+  margin-top: 10px;
+}
+a {
+  text-decoration: none;
+  color:#5f5d60;
+}
+
+.header {
+  height: 90px;
+  width: 100%;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  opacity: 0.9;
+}
+.header-list{
+  margin-left: 250px;
+}
+.logo {
+  width: 70px;
+  height: 70px;
+  margin-top: 10px;
+}
+.header-left {
+  float: left;
+}
+.header-right {
+  float: right;
+  background-color: #6495ED;
+  transition: all 0.5s;
+  margin-top: 30px;
+  border-radius: 4px;
+}
+.header-right:hover {
+  background-color: #00008B;
+}
+.header-right a {
+  line-height: 40px;
+  padding: 0 40px;
+  color: white;
+  display: block;
+}
+.header-right1 {
+  float: right;
+  background-color: #00BFFF;
+  transition: all 0.5s;
+  margin-top: 30px;
+  border-radius: 4px;
+  margin-right: 20px;
+}
+.header-right1:hover {
+  background-color: #00008B;
+}
+.header-right1 a {
+  line-height: 40px;
+  padding: 0 40px;
+  color: white;
+  display: block;
+}
+
+.top-wrapper{
+  padding: 180px 0 100px 0;
+  color: black;
+  text-align: left;
+  background-image: url(bg.jpg);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: 100px;
+  margin-bottom: 150px;
+}
+.container{
+  max-width: 1170px;
+  margin: 0 auto;
+
+}
+span{
+  color:#6495ED;
+  font-size: 50px;
+}
+.top-wrapper h1 {
+  font-size: 50px;
+  letter-spacing: 5px;
+}
+.top-wrapper h2 {
+  opacity: 0.7;
+  font-size: 30px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.top-wrapper p {
+  opacity: 0.7;
+  margin-bottom: 3px;
+}
+.btn-wrapper {
+  margin: 20px 0;
+}
+.btnn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 10px;
+}
+.gabung{
+  background-color: #00008B;
+}
+.btn:hover {
+  opacity: 1;
+}
